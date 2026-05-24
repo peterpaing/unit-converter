@@ -32,12 +32,12 @@ During this project, I practiced:
 - Converting Figma designs into real websites
 
 ## Live Demo
-
+https://lets-change-units.netlify.app/
 
 
 ## Screenshot
-
-
+![unit converter pc version screenshot](pcVersion.png)
+![unit converter mobile version screenshot](mobileVersion-1.png)
 
 ## Author
 
