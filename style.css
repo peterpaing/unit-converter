@@ -1,0 +1,178 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    padding: 40px 0;
+}
+
+
+
+.container {
+    width: 550px;
+    background-color: #F4F4F4;
+}
+
+
+
+.header {
+    height: 285px;
+    background-color: #6943FF;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+
+
+.header h1 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+
+
+#unit-input {
+    width: 117px;
+    height: 83px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 58px;
+    font-weight: 800;
+    text-align: center;
+    outline: none;
+    caret-color: white;
+}
+
+
+
+#convert-btn {
+    width: 117px;
+    height: 42px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+.cards {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 36px;
+}
+
+
+
+.card {
+    width: 500px;
+    height: 108px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.card h2 {
+    color: #5A537B;
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+
+
+.card p {
+    color: #353535;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 0;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .header h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    #unit-input {
+        width: 100px;
+        height: 70px;
+        font-size: 42px;
+    }
+
+    #convert-btn {
+        width: 100px;
+        height: 40px;
+    }
+
+    .cards {
+        padding: 0 16px 24px;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .card h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .card p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+}
+
