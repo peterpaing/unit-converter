@@ -37,7 +37,7 @@ https://lets-change-units.netlify.app/
 
 ## Screenshot
 ![unit converter pc version screenshot](pcVersion.png)
-![unit converter mobile version screenshot](mobileVersion-1.png)
+![unit converter mobile version screenshot](mobileVersion.png)
 
 ## Author
 
