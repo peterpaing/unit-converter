@@ -1,7 +1,8 @@
 # Unit Converter
 
 A responsive Metric/Imperial Unit Conversion web app built with HTML, CSS, and JavaScript.
-
+## Live Demo
+https://lets-change-units.netlify.app/
 ## Features
 
 - Convert:
@@ -31,8 +32,7 @@ During this project, I practiced:
 - `.toFixed()`
 - Converting Figma designs into real websites
 
-## Live Demo
-https://lets-change-units.netlify.app/
+
 
 
 ## Screenshot
